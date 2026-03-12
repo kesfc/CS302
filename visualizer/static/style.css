@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #101418;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 14px;
+  box-sizing: border-box;
+  z-index: 20;
+
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+#startBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #ffd54a;
+  color: #111;
+}
+
+#startBtn:hover {
+  filter: brightness(1.03);
+}
+
+#raceInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#raceInfo .item b {
+  font-weight: 800;
+}
+
+#canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}

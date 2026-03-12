@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pokemon Racing Competition</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div id="topbar">
+    <button id="startBtn">Start Race</button>
+
+    <div id="raceInfo">
+      <span class="item">Target: <b id="hudTarget">0.0</b></span>
+      <span class="item">Step: <b id="hudStep">0</b></span>
+      <span class="item">FPS: <b id="hudFps">0.0</b></span>
+      <span class="item">Winner: <b id="hudWinner">-</b></span>
+      <span class="item">Status: <b id="hudStatus">waiting</b></span>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="/static/visualizer.js"></script>
+</body>
+</html>

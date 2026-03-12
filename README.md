@@ -3,6 +3,7 @@
 This project is a modified version of the original **ALife-Sim** repository. The main goal of these changes was to replace randomly generated soft robots with **Pokémon-shaped robots**, train them individually, and make the training and visualization pipeline better suited for comparison and presentation.
 
 Google Drive: https://drive.google.com/drive/folders/1bDZ5J1Llfzge-dWSWwmzpqLULUKCHDxr
+Youtube: https://youtu.be/YzsZvrwbOCk
 
 ## Overview
 
